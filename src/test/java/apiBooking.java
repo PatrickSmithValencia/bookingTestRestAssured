@@ -102,7 +102,6 @@ public class apiBooking {
                 .extract()
                .jsonPath().getString("bookingid");
 
-       //System.out.println("hola: "+ tokenBooking+" y cod " + idBooking);
     }
 
     public void updateBooking(){
